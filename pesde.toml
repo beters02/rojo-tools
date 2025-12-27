@@ -4,6 +4,7 @@ kind = "tool"
 
 [target]
 environment = "roblox"
+lib = "rojo-tools"
 build_files = [
     "serve.luau"
 ]
