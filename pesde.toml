@@ -1,7 +1,9 @@
-[package]
 name = "rojo-tools"
 version = "0.1.0"
 kind = "tool"
 
-[bin]
-rojo-tools = "serve.luau"
+[target]
+environment = "roblox"
+build_files = [
+    "serve.luau"
+]
