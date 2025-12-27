@@ -1,0 +1,6 @@
+name = "rojo-tools"
+version = "0.1.0"
+kind = "tool"
+
+[bin]
+rojo-tools = "serve.luau"
